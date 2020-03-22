@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/ET2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:background="@drawable/item_border"
+        android:hint="Item Name"/>
+
+    <EditText
+        android:id="@+id/ET3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:background="@drawable/item_border"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        android:hint="Quantity" />
+
+    <EditText
+        android:id="@+id/ET4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:background="@drawable/item_border"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_margin="3dp"
+        android:hint="Per Unit Price"/>
+
+</LinearLayout>

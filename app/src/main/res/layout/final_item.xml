@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_border"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/TV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:hint="Item Name"/>
+
+        <TextView
+            android:id="@+id/TV3"
+            android:layout_toRightOf="@id/TV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_border"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_margin="3dp"
+            android:inputType="number"
+            android:hint="Item quantity"/>
+
+        <TextView
+            android:id="@+id/TV4"
+            android:layout_toRightOf="@id/TV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_border"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_margin="3dp"
+            android:hint="Per Unit Price"
+            android:inputType="numberDecimal"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
